@@ -1,13 +1,13 @@
 public class Notas {
-    int nota1;
-    int nota2;
-    int nota3;
-    int nota4;
+    double nota1;
+    double nota2;
+    double nota3;
+    double nota4;
     double media;
     boolean passorNot;
 
 
-    public double Notas(int nota1, int nota2, int nota3, int nota4 , double media){
+    public double Notas(double nota1, double nota2, double nota3, double nota4 , double media){
         this.nota1 = nota1;
         this.nota2 = nota2;
         this.nota3 = nota3;
@@ -16,7 +16,7 @@ public class Notas {
 
 
 
-        return media;
+        return media / 4;
 
     }
 
