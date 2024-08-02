@@ -10,7 +10,7 @@ public class Main {
       notas.nota2 = 3;
       notas.nota3 = 1;
       notas.nota4 = 1;
-      notas.media = (notas.nota1 + notas.nota2 + notas.nota3) / 4;
+      notas.media = (notas.nota1 + notas.nota2 + notas.nota3 + notas.nota4) / 4;
 
         if(notas.media < 8.5){
             System.out.println(notas.media);
